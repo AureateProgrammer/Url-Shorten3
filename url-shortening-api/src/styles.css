@@ -56,3 +56,9 @@ header {
     display: flex;
     align-items: center;
     gap: 2.5rem;
+}
+
+.nav__list {
+    display: flex;
+    gap: 2rem;
+}
