@@ -22,4 +22,13 @@ a{
 }
 
 
-img
+img{max-width: 100%;
+    display: block;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+
+}
