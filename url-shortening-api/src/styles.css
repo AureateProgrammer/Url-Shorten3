@@ -12,8 +12,14 @@
     --neutral-gray: hsl(0, 0%, 75%);
     --neutral-dark-blue: hsl(255, 11%, 22%);
     --neutral-very-dark-blue: hsl(260, 8%, 14%);
+    --very-dark-violet: hsl(260, 8%, 14%);
 }
 
 a{
     text-decoration: none;
+    color: var(--very-dark-violet);
+    display: block;
 }
+
+
+img
