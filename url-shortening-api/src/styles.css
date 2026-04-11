@@ -51,7 +51,7 @@ body{
 header{margin-bottom: 2rem
     ;}
 
-    nav{
+    #nav__container{
         padding: 2rem 0;
         display: flex;
         align-items: center;
