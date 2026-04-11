@@ -30,5 +30,20 @@ button{
     border: none;
     cursor: pointer;
     background-color: transparent;
+}
+input[type=text]{
+    width: 100px;
+    display:block;
+}
 
+body{
+    font-family: 'Poppins';
+    background-color: #f0f1f6;
+}
+
+
+.container{
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
