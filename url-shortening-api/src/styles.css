@@ -135,3 +135,34 @@ header {
     max-width: 500px;
 }
 
+
+.shorten {
+    position: relative;
+    transform: translateY(50%); /* This makes it "float" between sections */
+    z-index: 10;
+}
+
+.shorten__form {
+    background-color: var(--secondary-color); /* The dark purple */
+    background-image: url('./images/bg-shorten-desktop.svg');
+    background-size: cover;
+    padding: 3.2rem;
+    border-radius: 10px;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.shorten__input {
+    flex: 1; 
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.1rem;
+    font-family: inherit;
+}
+
+.shorten__btn {
+    border-radius: 10px !important; 
+    padding: 1rem 2.5rem;
+    white-space: nowrap; 
