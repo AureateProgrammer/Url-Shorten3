@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 0.6875rem;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <div class="container nav__container">
+        <img src="images/logo.svg" alt="shortly logo" class="nav__logo">
+        <ul class="nav__list">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Resources</a></li>
+        </ul>
+        <div class="nav__buttons">
+          <a href="#" class="btn btn--outline">Login</a>
+          <a href="#" class="btn btn--primary">Sign Up</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container hero__container">
+      <div class="hero__content">
+        <h1>More than just shorter links</h1>
+        <p>Build your brand's recognition and get detailed insights on how your links are performing.</p>
+        <a href="#" class="btn btn--primary">Get Started</a>
+      </div>
+
+      <img src="./images/illustration-working.svg" alt="Working illustration" class="hero__img">
+    </div>
+  </section>
+
+  <section class="shorten">
+    <div class="container">
+      <form class="shorten__form" id="shorten-form">
+        <input type="url" placeholder="Shorten a link here..." class="shorten__input" id="shorten-input" required>
+        <button type="submit" class="btn btn--primary">Shorten It!</button>
+      </form>
+
+      <div class="shorten__results" id="results-container"></div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <h2>Advanced Statistics</h2>
+      <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
+      <div class="features__grid">
+        <div class="feature">
+          <img src="./images/icon-brand-recognition.svg" alt="Brand Recognition">
+          <h3>Brand Recognition</h3>
+          <p>Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil
+            confidence in your content.</p>
+        </div>
+        <div class="feature">
+          <img src="./images/icon-detailed-records.svg" alt="Detailed Records">
+          <h3>Detailed Records</h3>
+          <p>Gain insights into who is clicking your links. Know when and where people engage with your content.</p>
+        </div>
+        <div class="feature">
+          <img src="./images/icon-fully-customizable.svg" alt="Fully Customizable">
+          <h3>Fully Customizable</h3>
+          <p>Your links are yours to control. Customize your shortened links to better reflect your brand.</p>
+        </div>
+      </div>
+    </div>
+    <div id="root"></div>
+  </section>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
